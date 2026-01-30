@@ -1,0 +1,85 @@
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+*.exp
+*.a
+*.lib
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+obj/
+out/
+dist/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Debug files
+debug/
+Debug/
+release/
+Release/
+
+# C++ specific
+*.stackdump
+*.core
+*.pid
+*.seed
+*.pid.lock
+
+# Visual Studio Code specific
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Compiler specific
+*.pch
+*.ilk
+*.map
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.suo
+*.cache
+*.VC.db
+*.VC.VC.opendb
+
+# MinGW specific
+*.d
+
+# Clang specific
+*.plist
