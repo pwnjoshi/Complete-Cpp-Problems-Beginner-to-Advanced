@@ -1,4 +1,5 @@
-// i = j + k  using two pointer technique
+// II. Given a sorted array of positive integers, design an algorithm and implement it using a program. to find three indices i, j, k such that arr[i] + arr[j]= arr[k].
+
 
 #include <iostream>
 using namespace std;
@@ -9,9 +10,12 @@ int main(){
     int i,j,k, n;
     cout<<"Enter the number of elements to enter:\n";
     cin>>n;
+    
+    // array elements enter karwaye
     for (i=0; i<n; i++){
         cin>>arr[i];
     }
+
     for(k=0;k<n;k++){
         i=0;
         j=n-1;
@@ -31,3 +35,5 @@ int main(){
     }
     return 0;
 }
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
